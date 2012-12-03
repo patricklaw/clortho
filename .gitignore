@@ -3,6 +3,9 @@
 # C extensions
 *.so
 
+# Sphinx folders
+docs/_*
+
 # Packages
 *.egg
 *.egg-info
