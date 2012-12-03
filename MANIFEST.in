@@ -1,0 +1,5 @@
+include .gitignore
+include README.md
+recursive-include zuul *.py
+recursive-include docs *
+prune docs/_*

@@ -31,7 +31,7 @@ setup(
     author_email='plawson@shopwiki.com',
     url='http://github.com/shopwiki/zuul',
     packages=['zuul'],
-    install_requires=['sqlalchemy'],
+    install_requires=['sqlalchemy', 'py-bcrypt'],
     classifiers = [
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
