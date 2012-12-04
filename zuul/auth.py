@@ -109,8 +109,8 @@ class UserBase(Base):
         '''
         :param password_plaintext: The plaintext of the password to check.
 
-        If :attr:`password_is_set` is ``True`` or :attr:`disabled` is 
-        ``False``, return ``False``.  Otherwise, take a plaintext password 
+        If :attr:`password_is_set` is ``False`` or :attr:`disabled` is 
+        ``True``, return ``False``.  Otherwise, take a plaintext password 
         string and hash it using bcrypt along with the salt for this user.  
         If the resulting hash matches the hash in :attr:`password_hash`, 
         return ``True``.  The session can now be considered authenticated 
