@@ -27,6 +27,7 @@ Quick Start
 ================================
 .. literalinclude:: ../zuul/tests/example.py
     :lines: 20-
+    :linenos:
 
 
 Indices and tables
