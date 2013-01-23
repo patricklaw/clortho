@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-from distutils.core import setup
+from setuptools import setup
 
 VERSION = '0.0.0'
 DESCRIPTION = 'Web Authentication with SQLAlchemy'
