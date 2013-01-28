@@ -31,7 +31,7 @@ setup(
     author_email='plawson@shopwiki.com',
     url='http://github.com/shopwiki/clortho',
     packages=['clortho'],
-    install_requires=['sqlalchemy', 'py-bcrypt'],
+    install_requires=['sqlalchemy', 'py-bcrypt', 'pysqlite'],
     classifiers = [
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
