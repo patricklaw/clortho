@@ -30,7 +30,7 @@ setup(
     license='Apache 2',
     author_email='plawson@shopwiki.com',
     url='http://github.com/shopwiki/clortho',
-    packages=['clortho', 'clortho.tests'],
+    packages=['clortho'],
     install_requires=['sqlalchemy', 'py-bcrypt', 'pysqlite'],
     tests_require=['nose', 'sqlalchemy', 'py-bcrypt'],
     classifiers = [
