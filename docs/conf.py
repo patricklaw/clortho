@@ -56,7 +56,7 @@ class Mock(object):
         else:
             return Mock()
 
-MOCK_MODULES = ['bcrypt', 'sqlalchemy']
+MOCK_MODULES = ['bcrypt']
 for mod_name in MOCK_MODULES:
     sys.modules[mod_name] = Mock()
 

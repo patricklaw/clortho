@@ -32,7 +32,7 @@ setup(
     url='http://github.com/shopwiki/clortho',
     packages=['clortho'],
     install_requires=['sqlalchemy', 'py-bcrypt', 'pysqlite'],
-    tests_require=['nose', 'sqlalchemy', 'py-bcrypt'],
+    tests_require=['nose', 'sqlalchemy', 'py-bcrypt', 'pysqlite'],
     classifiers = [
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
