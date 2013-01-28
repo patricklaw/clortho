@@ -13,6 +13,6 @@
 The Authentication Module
 ================================
 
-.. automodule:: zuul.auth
+.. automodule:: clortho.auth
     :members:
     :undoc-members:

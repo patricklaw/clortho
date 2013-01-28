@@ -23,7 +23,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from sqlalchemy.exc import IntegrityError
 
-from zuul.auth import UserBase, ActivationError
+from clortho.auth import UserBase, ActivationError
 
 class SimpleUser(UserBase):
     __tablename__ = 'simple_users'

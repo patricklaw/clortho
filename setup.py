@@ -23,14 +23,14 @@ VERSION = '0.0.0'
 DESCRIPTION = 'Web Authentication with SQLAlchemy'
 
 setup(
-    name='Zuul',
+    name='Clortho',
     version=VERSION,
     description=DESCRIPTION,
     author='Patrick Lawson',
     license='Apache 2',
     author_email='plawson@shopwiki.com',
-    url='http://github.com/shopwiki/zuul',
-    packages=['zuul'],
+    url='http://github.com/shopwiki/clortho',
+    packages=['clortho'],
     install_requires=['sqlalchemy', 'py-bcrypt'],
     classifiers = [
         'Development Status :: 2 - Pre-Alpha',

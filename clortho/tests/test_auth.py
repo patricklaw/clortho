@@ -24,7 +24,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from sqlalchemy.exc import IntegrityError
 
-from zuul.auth import UserBase
+from clortho.auth import UserBase
 
 class TestUser(UserBase):
     __tablename__ = 'test_users'

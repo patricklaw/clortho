@@ -1,5 +1,5 @@
 include .gitignore
 include README.md
-recursive-include zuul *.py
+recursive-include clortho *.py
 recursive-include docs *
 prune docs/_*
