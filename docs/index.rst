@@ -15,7 +15,7 @@
    contain the root `toctree` directive.
 
 Welcome to Clortho's documentation!
-================================
+===================================
 
 Contents:
 
